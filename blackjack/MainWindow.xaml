@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:blackjack"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Black">
+        <Label x:Name="lb_mainlogo" Content="BLACKJACK" HorizontalAlignment="Center" Margin="0,157,0,0" VerticalAlignment="Top" Foreground="White" FontSize="36" FontFamily="Comic Sans MS"/>
+        <Button x:Name="btn_start" Content="Start" HorizontalAlignment="Center" Margin="0,303,0,0" VerticalAlignment="Top" FontSize="24" BorderBrush="Black" Background="Black" Foreground="White"/>
 
     </Grid>
 </Window>
