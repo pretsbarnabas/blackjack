@@ -24,5 +24,19 @@ namespace blackjack
         {
             InitializeComponent();
         }
+
+        private void btn_start_Click(object sender, RoutedEventArgs e)
+        {
+            lb_mainlogo.Visibility = Visibility.Hidden;
+            btn_start.Visibility = Visibility.Hidden;
+        }
+        private void InitalizeCards()
+        {
+            List<int> cards = new List<int>();
+            for (int i = 0; i < 52; i++)
+            {
+                cards.Add(i);
+            }
+        }
     }
 }
